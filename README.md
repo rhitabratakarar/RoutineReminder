@@ -12,13 +12,7 @@ A Simple application that will start when the system will start and will provide
 
 3. Run this Command 
 
-    for Ubuntu: 
-
         pip3 install -r requirements.txt
-
-    for Windows:
-
-        pip install -r requirements.txt
 
 # About the Database:
 
