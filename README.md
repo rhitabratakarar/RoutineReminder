@@ -22,22 +22,22 @@ There will be a file called **routine.txt**. That is the database. Edit that fil
 
 **Format:**
 
-Work,Message,Time (24-hr Format)
+Time (24-hr Format), Work, Message
 
-Work,Message,Time (24-hr Format)
+Time (24-hr Format), Work, Message
 
-Work,Message,Time (24-hr Format)
+Time (24-hr Format), Work, Message
 
 ...
 
 **Examples:**
 
-Test1,03:00,First Test
+13:17, First Test, Done
 
-Test2,00:00,Second Test
+13:18, Second Test, Done
 
-Test3,12:59,Third Test
+13:19, Third Test, Done
 
 ...
 
-__Note:__ The time must be in 24-hr format. Also check there is no space after comma while separating work, message and time. 
+__Note:__ The time must be in 24-hr format.
