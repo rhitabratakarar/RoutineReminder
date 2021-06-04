@@ -1,8 +1,5 @@
-import time
-import notify2
+import time, notify2, gc
 from itertools import cycle
-import gc
-from icecream import ic
 
 reminder_list = list()
 notify2.init("Test Reminder")
@@ -22,11 +19,6 @@ with open("routine.txt") as tasks:
 
 reminder_list = sorted(reminder_list, key=lambda x: x[0])
 done_list = list()
-
-#Todo: Check for the previous task times that the person might have missed.
-#? scan through the list of tasks defined in routine.py and check for the 
-#? previous task times that is less than the current time.
-#? Then prompt the user with the missed notifications.
 
 for task in cycle(reminder_list):
     # get the localtime from the system
